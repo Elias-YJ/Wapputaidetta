@@ -24,6 +24,16 @@ h1:hover{
   font-size: 69px;
 }
 
+.canvas{
+  position: relative;
+  height: 100%;
+}
+
+.container{
+  position: relative;
+  height: 100%
+}
+
 #sky{
   background: rgb(79, 203, 235);
   height: 58%;
@@ -155,3 +165,10 @@ h1:hover{
         transform: translate3d(-1700px, 10px, 0px);
     }
 }
+
+.frog{
+  position: absolute;
+  width: 15%;
+  height: auto;
+}
+
