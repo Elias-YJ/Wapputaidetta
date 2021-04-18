@@ -1,5 +1,8 @@
 # Wapputaidetta
-WAP WAP WAPputaideteos
+
+WAP WAP WAPputaideteos.
+
+Nähtävillä osoitteessa [fyysikkokilta.fi/wapputervehdys](https://www.fyysikkokilta.fi/wapputervehdys/).
 
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
