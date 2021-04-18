@@ -43,6 +43,26 @@ h1:hover{
   left: 12%
 }
 
+#balloon {
+  position: relative;
+  width: 13%;
+  height: auto;
+  margin-top: -60vh;
+  left: 30%;
+  bottom: -50%;
+  animation: float 4s infinite ease;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes float {
+  from {
+    transform: rotate(-6deg) translate3d(0px, 22px, 0px);
+  }
+  to {
+    transform: rotate(6deg) translate3d(0px, 11px, 0px);
+  }
+}
+
 #sun {
   position: absolute;
   width: 20%;
