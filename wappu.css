@@ -170,6 +170,32 @@ h1:hover{
   position: absolute;
   width: 15%;
   height: auto;
+  animation-timing-function: ease-in;
+  animation: leap 3s cubic-bezier(.15,.63,.79,.56) forwards;
 }
 
-
+@keyframes leap {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  12% {
+    transform: translate3d(30px, -50px, 0px);
+  }
+  25% {
+    transform: translate3d(50px, -4px, 0px);
+  }
+  32% {
+    transform: translate3d(100px, -64px, 0px);
+  }
+  45% {
+    transform: translate3d(125px, -9px, 0px);
+  }
+  50% {
+    transform: translate3d(400px, -700px, 0px);
+  }
+  75% {
+  }
+  100% {
+    transform: translate3d(2000px, -2000px, 0px);
+  }
+}
