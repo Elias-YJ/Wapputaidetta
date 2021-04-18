@@ -9,14 +9,14 @@ html, body{
 }
 h1{
   position: absolute;
-  color: #fff;
-  font-style: italic;
-  font-size: 50px;
-  text-shadow: 4px 5px black;
   left: 50%;
   top: 5%;
   transform: translate(-50%, -50%);
   z-index: 42069;
+  color: #fff;
+  font-style: italic;
+  font-size: 50px;
+  text-shadow: 4px 5px black;
   transition: font-size 2s;
   transition-timing-function: ease-out;
 }
