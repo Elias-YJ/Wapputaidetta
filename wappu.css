@@ -170,5 +170,12 @@ h1:hover{
   position: absolute;
   width: 15%;
   height: auto;
+  transition: translate(0, 50%) 3s;
+  transition-timing-function: ease-out;
 }
+
+.frog:active{
+  transition: translate(0, 50%);
+}
+
 
