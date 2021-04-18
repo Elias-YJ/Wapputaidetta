@@ -8,7 +8,17 @@ html, body{
 }
 h1{
   color: #fff;
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 4px 5px black;
+  transition: font-size 2s;
+  transition-timing-function: ease-out;
 }
+h1:hover{
+  font-size: 69px;
+}
+
 #sky{
   background: rgb(79, 203, 235);
   height: 58%;
