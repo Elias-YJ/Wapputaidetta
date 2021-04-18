@@ -5,13 +5,18 @@ html, body{
   padding: 0;
   margin: 0;
   height: 100%;
+  overflow-x: hidden;
 }
 h1{
+  position: absolute;
   color: #fff;
   font-style: italic;
   font-size: 50px;
-  text-align: center;
   text-shadow: 4px 5px black;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 42069;
   transition: font-size 2s;
   transition-timing-function: ease-out;
 }
@@ -48,4 +53,73 @@ h1:hover{
   to {
     transform: rotate(359deg);
   }
+}
+
+.cloud {
+  position: relative;
+  width: 30%;
+  height: auto;
+  left: 50%;
+  top: 20%;
+  /* animation-direction: alternate-reverse; */
+}
+
+#pilvi1 {
+  animation: pilvi1 70s infinite linear;
+  animation-delay: -40s;
+}
+
+@keyframes pilvi1 {
+    from {
+        transform: translate3d(1500px, 20px, 0px);
+        animation-timing-function: ease-in;
+    }
+    to {
+        transform: translate3d(-1500px, 30px, 0px);
+    }
+}
+
+#pilvi2 {
+  animation: pilvi2 45s infinite linear;
+  animation-delay: -36s;
+}
+
+@keyframes pilvi2 {
+    from {
+        transform: translate3d(1500px, 80px, 0px);
+        animation-timing-function: ease-in;
+    }
+    to {
+        transform: translate3d(-1500px, 120px, 0px);
+    }
+}
+
+#pilvi3 {
+  animation: pilvi3 90s infinite linear;
+  animation-delay: -45s;
+}
+
+@keyframes pilvi3 {
+    from {
+        transform: translate3d(1500px, 120px, 0px);
+        animation-timing-function: ease-in;
+    }
+    to {
+        transform: translate3d(-1500px, 90px, 0px);
+    }
+}
+
+#pilvi4 {
+  animation: pilvi4 35s infinite ease;
+  animation-delay: -15s;
+}
+
+@keyframes pilvi4 {
+    from {
+        transform: translate3d(1700px, 50px, 0px);
+        animation-timing-function: ease-in;
+    }
+    to {
+        transform: translate3d(-1700px, 10px, 0px);
+    }
 }
