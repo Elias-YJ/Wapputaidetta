@@ -25,6 +25,18 @@ h1:hover{
   font-size: 69px;
 }
 
+h2{
+  position: absolute;
+  left: 30%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  z-index: 42069;
+  color: #fff;
+  font-style: italic;
+  font-size: 24px;
+  text-shadow: 2px 3px black;
+}
+
 .canvas{
   position: relative;
   height: 100%;
@@ -58,9 +70,9 @@ h1:hover{
   position: relative;
   width: 13%;
   height: auto;
-  margin-top: -60vh;
+  margin-top: -30vh;
   left: 30%;
-  bottom: -50%;
+  bottom: -2%;
   animation: float 4s infinite ease;
   animation-direction: alternate-reverse;
 }
