@@ -4,6 +4,7 @@ WAP WAP WAPputaideteos.
 
 Nähtävillä osoitteessa [fyysikkokilta.fi/wapputervehdys](https://www.fyysikkokilta.fi/wapputervehdys/).
 
+![käytettävyys on oikeasti tiedettä](https://github.com/Elias-YJ/Wapputaidetta/blob/main/K%C3%A4yttist%C3%A4.jpg)
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
